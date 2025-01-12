@@ -1,0 +1,11 @@
+base_path: "training_data/meteors"
+train_image_dir: "${base_path}/train/images"
+train_label_dir: "${base_path}/train/labels"
+val_image_dir: "${base_path}/val/images"
+val_label_dir: "${base_path}/val/labels"
+test_image_dir: "${base_path}/test/images"
+test_label_dir: "${base_path}/test/labels"
+input_shape: [256, 256, 3]
+epochs: 50
+batch_size: 32
+threshold: 0.2

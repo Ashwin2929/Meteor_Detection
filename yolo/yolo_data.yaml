@@ -1,0 +1,5 @@
+train: "training_data/meteors/train/images"
+val: "training_data/meteors/val/images"
+test: "training_data/meteors/test/images"
+nc: 1
+names: ["meteor"]
